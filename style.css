@@ -72,8 +72,43 @@ nav ul {
 /* Service */
 
 .service {
+  display: flex;
   background-color: #fff;
-  padding: 20px 15px;
+  padding: 50px 15px;
+}
+
+.left-service {
+  padding: 50px 15px;
+}
+.left-service-card {
+  color: white;
+  width: 250px;
+  max-height: 450px;
+  background-color: #df202e;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.left-service-card h1 {
+  font-size: xx-large;
+  margin: 28px 0;
+}
+.left-service-card p {
+  font-size: 22px;
+  margin: 26px 0;
+}
+.left-service-card button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 8px;
+  width: 100%;
+  background-color: white;
+  color: #df202e;
+  font-weight: 600;
 }
 
 .right-service {
@@ -82,6 +117,12 @@ nav ul {
 .right-service h2 {
   color: #4c4c4c;
 }
+
+.service-cards {
+  display: flex;
+  gap: 20px;
+}
+
 .service-card {
   max-width: 167px;
   padding: 25px 15px;
