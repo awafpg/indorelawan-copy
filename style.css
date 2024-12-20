@@ -234,17 +234,34 @@ nav ul {
 }
 
 .dampak-cards {
+  margin: 25px 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 100%;
+  flex-wrap: wrap;
 }
 
 .dampak-card {
   max-width: 350px;
-  padding: 10px;
+  padding: 18px;
   background-color: white;
-  border: 1px solid black;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
   border-radius: 7px;
   display: flex;
 }
+
+.jenis-dampak {
+  color: #ed7465;
+  font-weight: 600;
+}
+
+.jumlah {
+  font-size: 30px;
+  margin-right: 6px;
+}
+
 /* Footer */
 
 footer {
@@ -267,6 +284,7 @@ footer {
 .left-footer-content p {
   line-height: 25px;
 }
+
 .right-footer-content {
   margin-left: 25px;
 }
