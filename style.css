@@ -245,3 +245,36 @@ nav ul {
   border-radius: 7px;
   display: flex;
 }
+/* Footer */
+
+footer {
+  background-color: #efefef;
+  padding: 30px 80px;
+}
+
+.footer-content {
+  font-size: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+.left-footer-content,
+.center-footer-content,
+.right-footer-content {
+  max-width: 350px;
+}
+
+.left-footer-content p {
+  line-height: 25px;
+}
+.right-footer-content {
+  margin-left: 25px;
+}
+
+.red-text {
+  color: #df202e;
+}
+
+.support-image img {
+  width: 120px;
+}
